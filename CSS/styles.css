@@ -1,0 +1,36 @@
+*{
+  /*el asterisco significa que se aplicara a todos los elementos */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+p{
+    color: #18056e;
+}
+/*las etiquetas se invocan por su nombre */
+
+div{
+    border-color: #00FF00;
+    border: 4px solid#047566;
+}
+
+/* las clases afectan a los elementos que contengan la misma clase */
+.clase-caja {
+  border: 8px solid #cbec0d;
+  background-color: #15b9eb;
+}
+
+.clase-parrafo{
+  color:#ffffff;
+}
+
+/*los id afectan a los elementos especificos por su ID */
+#fotografia{
+  border: 8px solid #e809bf;
+  width: 300px;
+
+}
+#camera{
+  border: 8px solid #e809bf;
+  width: 300px;
+}
